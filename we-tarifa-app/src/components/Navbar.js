@@ -21,7 +21,7 @@ const Navbar = () => {
     <header>
 
         <img src={logo}></img>
-
+    
         <nav ref={navRef}>
             <a href='/#'>Inicio</a>
             <a href='/#'>Sobre nosotros</a>
