@@ -1,7 +1,8 @@
 import React from 'react'
 import {useRef} from 'react'
+import {Link} from 'react-router-dom'
 
-import '../styles/main.css'
+import './styles/main.css'
 
 import{FaBars, FaTimes} from 'react-icons/fa'
 
@@ -23,14 +24,16 @@ const Navbar = () => {
         <img src={logo}></img>
     
         <nav ref={navRef}>
-            <a href='/#'>Inicio</a>
-            <a href='/#'>Sobre nosotros</a>
-            <a href='/#'>Servicios</a>
-            <a href='/#'>Sobre tarifa</a>
-            <a href='/#'>Sobre tarifa</a>
-            <a href='/#'>Contacto</a>
-            <a href='/#'>Blog</a>
-            <a href='/#'>Reservas</a>
+
+            
+            <a ><Link to='/'>Inicio</Link></a>
+            <a ><Link to='/SobreNosotros'>SobreTarifa</Link></a>
+            <a ><Link to='/Servicios'>Servicios</Link></a>
+            <a ><Link to='/SobreTarifa'>SobreTarifa</Link></a>
+            <a ><Link to='/Contacto'>Contacto</Link></a>
+            <a ><Link to='/Bloq'>Bloq</Link></a>
+            <a ><Link to='/Reservas'>Reservas</Link></a>
+            
 
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                 <FaTimes></FaTimes>

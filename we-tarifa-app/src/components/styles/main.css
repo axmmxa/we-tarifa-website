@@ -8,9 +8,9 @@
 }
 
 :root{
-    --mainColor: #29335C;
+    --mainColor: #9C9792;
     --mainColorLight: #5767aa;
-    --secondaryColor: #DB2B39;
+    --secondaryColor: #252525;
     --textColor:#eee;
 }
 
@@ -26,7 +26,6 @@ header{
 
 header img{
     height: 40px;
-    background-color: red !important;
 }
 
 nav a {
