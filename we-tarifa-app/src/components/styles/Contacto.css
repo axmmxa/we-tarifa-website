@@ -1,0 +1,11 @@
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maps {
+    width: 600px;
+    height: 600px;
+}
