@@ -1,0 +1,16 @@
+.SobreNosotros {
+    display: flex; 
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.SobreNosotros h1 {
+    margin-left: 0;
+}
+
+.SobreNosotros p {
+    margin-top: 3rem;
+    font-size: large;
+}
