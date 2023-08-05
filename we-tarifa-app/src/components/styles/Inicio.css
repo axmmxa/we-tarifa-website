@@ -1,3 +1,39 @@
+.Inicio {
+   display: flex; 
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 h1 {
-    color: red;
+   
+    color: black;
+    margin: 5rem;
+}
+
+.multi-text-box {
+    display: flex;
+}
+
+.single-text{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.Inicio img {
+        margin-top: 3rem;
+        width: 800px;
+        height: 800px;
+        object-fit: cover; 
+}
+
+.big-text{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
