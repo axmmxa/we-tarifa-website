@@ -11,6 +11,8 @@ import Bloq from './components/Bloq'
 import Reservas from './components/Reservas'
 
 import {Link, Route, Routes} from 'react-router-dom' 
+import Footer from './components/Footer';
+
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
       <Route path='/Reservas' element={<Reservas></Reservas>}></Route>
 
     </Routes>
+
+    <Footer></Footer>
     
     </>
     );

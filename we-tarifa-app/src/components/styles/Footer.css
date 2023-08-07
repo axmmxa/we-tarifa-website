@@ -1,0 +1,33 @@
+.Footer {
+    height: 80px;
+    border-top: 2px solid #DEDEDE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.social-links {
+    margin-left: 20px;
+}
+
+.social-links a {
+   color:#9C9792;;
+   height: 40px;
+   margin-left: 10px;
+}
+
+.social-links a:hover{
+    color: #252525;;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}

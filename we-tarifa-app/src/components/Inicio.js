@@ -5,10 +5,14 @@ import './styles/Inicio.css'
 import foto from '../media/inicio.jpeg'
 
 
+
 const Inicio = () => {
   return (
   
+      
+
     <div className='Inicio'>
+
 
       <h1> Qué ofrecemos</h1>
 

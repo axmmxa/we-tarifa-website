@@ -26,13 +26,13 @@ const Navbar = () => {
         <nav ref={navRef}>
 
             
-            <a ><Link to='/'>Inicio</Link></a>
-            <a ><Link to='/SobreNosotros'>SobreNosotros</Link></a>
-            <a ><Link to='/Servicios'>Servicios</Link></a>
-            <a ><Link to='/SobreTarifa'>SobreTarifa</Link></a>
-            <a ><Link to='/Contacto'>Contacto</Link></a>
-            <a ><Link to='/Bloq'>Bloq</Link></a>
-            <a ><Link to='/Reservas'>Reservas</Link></a>
+            <a ><Link onClick={showNavbar} to='/'>Inicio</Link></a>
+            <a ><Link onClick={showNavbar} to='/SobreNosotros'>SobreNosotros</Link></a>
+            <a ><Link onClick={showNavbar} to='/Servicios'>Servicios</Link></a>
+            <a ><Link onClick={showNavbar} to='/SobreTarifa'>SobreTarifa</Link></a>
+            <a ><Link onClick={showNavbar} to='/Contacto'>Contacto</Link></a>
+            <a ><Link onClick={showNavbar} to='/Bloq'>Bloq</Link></a>
+            <a ><Link onClick={showNavbar} to='/Reservas'>Reservas</Link></a>
             
 
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
